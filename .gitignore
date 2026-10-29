@@ -3,21 +3,43 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 build/
+dist/
 
 # Środowisko wirtualne
 .venv/
+venv/
+env/
 
-# Testy
+# Sekrety i zmienne środowiskowe
+.env
+.env.*
+!.env.example
+
+# Testy i narzędzia jakości kodu
 .pytest_cache/
 .coverage
+.coverage.*
+coverage.xml
 htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
 results.xml
 test_result_*.md
 
-# Aider
+# Asystenci AI (lokalne historie i ustawienia)
 .aider*
+.claude/settings.local.json
 
-# Edytory / system
+# Edytory
 .vscode/
 .idea/
+*.swp
+*~
+
+# System (macOS / Windows / WSL)
 .DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
