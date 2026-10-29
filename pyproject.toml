@@ -1,0 +1,13 @@
+[project]
+name = "kurs-git-github"
+version = "0.1.0"
+description = "Repozytorium szkoleniowe: Git, GitHub i praca z asystentem AI"
+requires-python = ">=3.12"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["scripts"]
+addopts = "-ra"
