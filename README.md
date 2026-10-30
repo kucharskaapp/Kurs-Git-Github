@@ -202,3 +202,5 @@ pip install -e ".[dev]"
 ```
 
 Upewnij się, że używasz odpowiedniego środowiska Python, jeśli korzystasz z wirtualnych środowisk.
+
+!ZEPSUTE!
